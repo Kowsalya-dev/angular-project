@@ -1,0 +1,17 @@
+
+.card{
+  text-align: center;
+  margin:10px;
+  height:200px;
+}
+
+.card-title{
+  align-items: center;
+  margin-top: 15%;
+}
+
+.card-footer{
+  background: grey;
+}
+
+

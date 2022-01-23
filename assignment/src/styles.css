@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mat-tab-label {
+  width: 10%;
+}
+.testing-encapsulation .mat-tab-label-active {
+  background-color: #ff0000 !important;
+  opacity: 1 !important;
+  color: white;
+}
+.testing-encapsulations{
+  background-color: #000000 !important;
+  opacity: 1 !important;
+  color: white;
+}
+.testing-encapsulations .mat-tab-label-active{
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  color: black;
+  margin-left: 20px;
+  min-width: 0!important;
+  padding: 25px!important;
+}
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background: #ff0000;
+  height: 4px;
+}
+
+/* ::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
+  min-width: 0!important;
+  padding: 3px!important;
+  margin: 3px!important;
+ } */
